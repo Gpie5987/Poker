@@ -1,0 +1,54 @@
+#chart {
+    position: relative;
+}
+.ip_point {
+    width: 14px;
+    height: 14px;
+    top: 300px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+.oop_point {
+    width: 14px;
+    height: 14px;
+    top: 450px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.vertical-dashed-line {
+    border-left: 1px dashed #000; /* 1px的虛線，顏色可以更改 */
+    height: 100px; /* 虛線的高度，根據需要調整 */
+    margin-left: 50px; /* 虛線距離左邊的距離，根據需要調整 */
+  }
+
+.pr_font{
+    position: relative;
+    font-size: 40px;
+}
+
+.card {
+    max-height: 220px;
+}
+
+.hand img{
+    max-height: 120px; 
+}
+
+.hand{
+    position: static;
+    display: flex;
+}
+
+.hands_container{
+    position: absolute;
+}
+
+.dash_board_div{
+    position: relative;
+    display: flex;
+}
